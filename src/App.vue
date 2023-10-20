@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ContadorSimple/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ContadorSimple from './components/ContadorSimple.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ContadorSimple
   }
 }
 </script>
 
 <style>
+*{
+  background-color: rgb(240, 240, 240);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
   margin-top: 60px;
 }
 </style>
