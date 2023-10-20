@@ -1,22 +1,25 @@
 <template>
   <ContadorSimple/>
+  <ToDo/>
 </template>
 
 <script>
 import ContadorSimple from './components/ContadorSimple.vue'
+import ToDo from './components/ToDo.vue'
 
 
 export default {
   name: 'App',
   components: {
-    ContadorSimple
+    ContadorSimple,
+    ToDo
   }
 }
 </script>
 
 <style>
 *{
-  background-color: rgb(240, 240, 240);
+  background-color: white;
 }
 
 #app {

@@ -31,12 +31,11 @@
   
 <style>
     h1 {
-        background-color: black;
-        color: white;
+        background-color: #f0f0f0;
         border-radius: 50px;
-        display: inline;
         padding: 15px;
         margin: 10px;
+        display: inline;
     }
 
   .counter {
@@ -44,15 +43,16 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-bottom: 100px;
 
   }
   
   button {
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 30px;
-    border-radius: 50px;
-    width: 50px;
+    border-radius: 100px;
+    width: 60px;
     color: white;
     font-weight: 600;
   }
@@ -70,7 +70,7 @@
   }
   
   p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 </style>
   
